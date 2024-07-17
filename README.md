@@ -24,15 +24,15 @@ module "cloud_functions2" {
   version = "~> 0.6"
 
   # Required variables
-  function_name  = "<FUNCTION_NAME>"
-  project_id     = "<PROJECT_ID>"
-  location       = "<LOCATION>"
-  runtime        = "<RUNTIME>"
-  entrypoint     = "<ENTRYPOINT>"
-  storage_source = {
-    bucket      = "<BUCKET_NAME>"
-    object      = "<ARCHIVE_PATH>"
-    generation  = "<GCS_GENERATION>"
+  function_name     = "<FUNCTION_NAME>"
+  project_id        = "<PROJECT_ID>"
+  function_location = "<LOCATION>"
+  runtime           = "<RUNTIME>"
+  entrypoint        = "<ENTRYPOINT>"
+  storage_source    = {
+    bucket     = "<BUCKET_NAME>"
+    object     = "<ARCHIVE_PATH>"
+    generation = "<GCS_GENERATION>"
   }
 }
 ```
